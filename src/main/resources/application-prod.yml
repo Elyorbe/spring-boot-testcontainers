@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://
+    username:
+    password:
+
+  flyway:
+    enabled: false
+
+  banner:
+    location: classpath:banner/prod.txt
